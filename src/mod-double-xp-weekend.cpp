@@ -53,7 +53,7 @@ public:
             sConfigMgr->LoadMore(cfg_def_file.c_str());
             sConfigMgr->LoadMore(cfg_file.c_str());
 
-            Enabled = sConfigMgr->GetBoolDefault("XPWeekend.Enanbled", true);
+            Enabled = sConfigMgr->GetBoolDefault("XPWeekend.Enabled", true);
             xpAmount = sConfigMgr->GetIntDefault("XPWeekend.xpAmount", 2);
 
         }
