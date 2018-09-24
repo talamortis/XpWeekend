@@ -6,11 +6,11 @@
 #
 XPWeekend.Announce = 0
 
-# XPWeekend.Enanbled
+# XPWeekend.Enabled
 #	Enable or Disable the module.
 #default: 1 = enable
 #
-XPWeekend.Enable = 1
+XPWeekend.Enabled = 1
 
 # XPWeekend.xpAmount
 #	Allows the config file to set the amount of times xp is given
