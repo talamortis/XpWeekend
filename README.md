@@ -34,6 +34,6 @@ If you need to change the module configuration, go to your server configuration 
 
 ## Credits
 
-* [Me](https://github.com/Talamotis) (author of the module)
+* [Me](https://github.com/Talamortis) (author of the module)
 
 AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
