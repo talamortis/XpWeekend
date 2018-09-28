@@ -1,30 +1,16 @@
-# PART 1 - How to create your own module
-
-[ THIS README IS A WORK IN PROGRESS ]
-
-
-You can use these scripts to start your project:
-
-https://github.com/azerothcore/azerothcore-boilerplates
-
 -------------------------------------------------------
 
-# PART 2 - EXAMPLE OF A README.md
-
-# MY NEW MODULE (title)
+# XP Weekend module
 
 
 ## Description
 
-This module allows to do this and this.
+This module is a xp module that will allow the server owner/host to select how much XP players can recieve on the weekend via a config file.
 
 
 ## How to use ingame
 
-Do this and that.
-
-![my new module screenshot](/screenshots/my_module.png?raw=true "my new module screenshot")
-
+Apply the module and Just log in on the weekend there you will see an announcement upon login to see if the module has been activated.
 
 ## Requirements
 
@@ -43,13 +29,11 @@ My new module requires:
 
 ## Edit module configuration (optional)
 
-If you need to change the module configuration, go to your server configuration folder (where your `worldserver` or `worldserver.exe` is), copy `my_module.conf.dist` to `my_module.conf` and edit that new file.
+If you need to change the module configuration, go to your server configuration folder (where your `worldserver` or `worldserver.exe` is), copy `mod-double-xp-weekend.conf.dist` to `mod-double-xp-weekend.conf` and edit that new file.
 
 
 ## Credits
 
-* [Me](https://github.com/YOUR_GITHUB_NAME) (author of the module): Check out my soundcloud - Join my discord
-* [BarbzYHOOL](https://github.com/barbzyhool): best guy <!-- you can remove this small joke or modify it, but if you let the names, we get notified when a new module is made, which is quite cool) -->
-* [Talamortis](https://github.com/talamortis): almost best guy <!-- you can remove this small joke or modify it, but if you let the names, we get notified when a new module is made, which is quite cool) -->
+* [Me](https://github.com/Talamotis) (author of the module)
 
 AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
