@@ -29,8 +29,10 @@ public:
             if (!Enabled)
                 return;
 
-            if (now->tm_wday == 5 /*Friday*/ || now->tm_wday == 6 /*Satureday*/ || now->tm_wday == 0/*Sunday*/)
+            if (now->tm_wday == 5 /*Friday*/ || now->tm_wday == 6 /*Satureday*/ || now->tm_wday == 0/*Sunday*/ && now->tm_hour >= 0)
                 amount *= xpAmount;
+            else
+                amount == amount;
         }
 };
 
